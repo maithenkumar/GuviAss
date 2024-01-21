@@ -1,0 +1,39 @@
+#body {
+  margin: 0px;
+  padding: 0px;
+}
+.homepage {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+}
+.homepage nav {
+  display: flex;
+  height: 30px;
+  background-color: orange;
+  padding-left: 20px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  justify-content: space-between;
+}
+.homepage span {
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.homepage a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    align-self:center; 
+}
+.homepage h1{
+    align-self: center;
+    justify-content: center;
+    margin-top:10% ;
+    text-align: center;
+    letter-spacing: 0.5px;
+}

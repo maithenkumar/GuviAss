@@ -1,0 +1,63 @@
+.signup {
+  display: flex;
+
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.signup .heading {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 2px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.signup .form__inset {
+  font-size: 15px;
+  border: 2px solid orange;
+  border-radius: 12px;
+  padding: 10px;
+  -webkit-transition: 0.5s;
+  margin-bottom: 20px;
+  width: 300px;
+}
+.signup input :focus {
+  /* border: 3px solid #555; */
+  border: 2px solid orange;
+}
+
+.signup .emailtxt {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+/* background-color:  hsl(224, 24%, 32%);; */
+
+.greet {
+  align-self: center;
+}
+.h1 {
+  align-self: center;
+  padding-bottom: 50px;
+}
+.login-butt{
+  font-size: 18px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: none;
+  background-color: orange;
+  color: white;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  border-radius: 12px;
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  
+}
